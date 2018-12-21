@@ -1,0 +1,102 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contener {
+
+    width: 100%;
+}
+.status {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    font-size: 38px;
+}
+.hands {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+.hands img {
+    max-height: 150px;
+    max-width: 200px;
+    margin: 0 20px;
+}
+
+#img1:hover {
+    /* filter: drop-shadow(10px 10px 10px red); */
+    cursor: pointer;
+}
+#img2:hover {
+    /* filter: drop-shadow(10px 10px 10px red); */
+    cursor: pointer;
+}
+#img3:hover {
+    /* filter: drop-shadow(10px 10px 10px red); */
+    cursor: pointer;
+}
+
+.choose {
+    filter: drop-shadow(10px 10px 10px red);
+}
+
+#grajBtn {
+    background: yellow;
+    font-size: 25px;
+    margin: 40px 0px;
+    padding: 20px 60px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+ /* WYNIKI  */
+
+ .wyniki {
+     position: relative;
+     text-align: center;
+     font-size: 20px;
+ }
+
+
+ .info {
+     text-align: center;
+     margin-top: 20px;
+     font-size: 30px;
+ }
+
+ /* // GRA O PIENIADZE  */
+
+ .money-container {
+     position: relative;
+ }
+
+ .checkbox-container {
+     position: absolute;
+     left: 0%;
+bottom: 0;
+ }
+
+
+
+ .stwakaIBtn {
+     position: relative;
+ }
+
+ .stawka {
+    display:none;
+    position: absolute;
+    left: 50%;
+    transform:translateX(-50%);
+    top: 75%;
+    font-size: 18px;
+ }
+
+ .displayBlock {
+     display: block;
+ }
